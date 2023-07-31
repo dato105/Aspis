@@ -1,0 +1,151 @@
+.Title {
+    font-family: Assistant;
+    font-weight: 600;
+    size: 36px;
+    line-height: 47px;
+    text-align: center;
+    width: 200px;
+}
+
+.CountAlertFilled {
+    background-color: #EDC63B;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 30px;
+    height: 25px;
+
+    border: 1px solid #DADADF;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px !important;
+    margin-bottom: 20px !important;
+
+}
+
+.fileCard {
+    display: flex;
+    flex-direction: row;
+    border-width: 0px;
+    gap: 20px;
+    background-color: #FFFFFF;
+}
+
+.fileCard:hover .clickable {
+    cursor: pointer !important;
+}
+
+.InProcessCardSubCard {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+
+.tabList {
+    flex-grow: 5;
+}
+
+.bottomLine {
+    position: absolute;
+    left: 0.01%;
+    right: 0.01%;
+    top: 99%;
+    bottom: 2.92%;
+    border: 1px solid #888888;
+    width: 100%;
+}
+
+.tab {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    /*color: black !important;*/
+
+    width: 290px;
+    height: 26px;
+    left: 12px;
+    top: 0px;
+
+
+    /* 20 SEMIBOLD */
+
+    font-family: 'Assistant' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+    text-align: right !important;
+
+}
+
+.tabContext {
+    display: flex !important;
+    margin-right: 15px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    flex-direction: row;
+    align-items: baseline;
+    position: relative;
+}
+
+.requestBarSubHeader {
+
+    left: 94%;
+    right: 0%;
+    top: 0%;
+    bottom: 89.96%;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: #1155BB;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.searchIcon {
+    margin-right: 10px;
+}
+
+.InProcessCardSubCardButton {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.waitRequestApproveBtn {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 9px 20px !important;
+    gap: 10px !important;
+    width: 199px !important;
+    height: 40px !important;
+    background: #1155BB !important;
+    border-radius: 56px !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.approveBtnText {
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #FFFFFF;
+    flex: none !important;
+    order: 0;
+    flex-grow: 0;
+}

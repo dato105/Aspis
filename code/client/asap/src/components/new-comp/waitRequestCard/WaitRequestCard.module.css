@@ -1,0 +1,295 @@
+.waitRequestCard {
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    width: 100%;
+    height: 170px;
+
+    /* white */
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 20px;
+    gap: 15px;
+
+}
+
+.topCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.bottomCard {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bottomCardText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 4;
+    gap: 70px;
+}
+
+.candidateName {
+
+    /* H2 (21) */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: right;
+
+    /* black */
+
+    color: #212121;
+    flex-grow: 4;
+
+
+}
+
+.bottomLine {
+
+    left: 0.01%;
+    right: 0.01%;
+    top: 40%;
+    bottom: 99%;
+
+    /* grey 3 */
+
+    border: 1px solid #DADADF;
+    width: 100%;
+
+
+}
+
+.subHeader {
+
+
+    height: 22px;
+
+    top: -1.71px;
+
+    /* P light */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: right;
+
+
+    /* grey 3 */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    color: #888888;
+}
+
+
+.parameter {
+    /* P */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+
+
+    color: #212121;
+
+
+}
+
+.candidateBagBtn {
+
+    font-family: 'Assistant' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    /* identical to box height */
+
+    text-align: right !important;
+
+    /* black */
+
+    color: #212121 !important;
+
+
+    height: 50px !important;
+    border-radius: 56px !important;
+    margin-left: 30px !important;
+
+    display: flex;
+
+
+}
+
+.InProcessCardSubCard {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}
+.InProcessCardSubCard2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    flex: 5;
+    width: 20px;
+}
+
+.InProcessCardSubCardButton {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.waitRequestApproveBtn {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 9px 20px !important;
+    gap: 10px !important;
+
+    width: 199px !important;
+    height: 40px !important;
+
+    /* Primary */
+
+    background: #1155BB !important;
+    border-radius: 56px !important;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.approveBtnText {
+
+
+    /* Button */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none !important;
+    order: 0;
+    flex-grow: 0;
+}
+
+.waitRequestDeniedBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 20px;
+
+
+    width: 100px;
+    height: 30px;
+
+    /* Primary */
+
+    background: #FFFFFF;
+    border-radius: 56px !important;
+    margin-top: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.deniedBtnText {
+
+
+    width: 100px;
+    height: 20px;
+
+    /* button 14 */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Primary */
+
+    color: #1155BB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.snackbar {
+    color: #000 !important;
+    background-color: #FFFFFF !important;
+}
+
+.candidateBag {
+    margin-left: 7px;
+
+}
+
+.InProcessCardSubCardButton {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+

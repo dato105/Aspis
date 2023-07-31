@@ -1,0 +1,28 @@
+
+.popperText {
+    display: flex;
+
+    /* P semi */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    flex-grow: 3;
+    color: #000000;
+
+
+}
+
+.popperIcon {
+    display: flex;
+    flex-grow: 2;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+

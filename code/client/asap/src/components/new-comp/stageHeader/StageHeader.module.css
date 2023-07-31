@@ -1,0 +1,73 @@
+.stageHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+    gap: 50px
+}
+
+.stageHeaderStatus {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+
+
+}
+
+.h1 {
+    font-family: Assistant;
+    font-weight: 600;
+    size: 36px;
+    line-height: 47px;
+    text-align: center;
+    width: 300px;
+
+
+}
+
+.dividerHeader {
+    height: 40px !important;
+    margin-top: 25px !important;
+
+
+}
+
+.stepDetailsBtn {
+    font-family: Assistant !important;
+    color: black !important;
+    height: 30px !important;
+    width: 120px !important;
+    border-radius: 36px !important;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    text-align: right;
+    justify-content: center;
+    margin-top: 30px !important;
+
+
+}
+
+.stepDetailsStatus {
+    font-family: 'Assistant';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: #212121;
+    width: 180px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+
+}
+
+.iconDetailStatus {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+

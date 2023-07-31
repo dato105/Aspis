@@ -1,0 +1,41 @@
+
+.Wrap{
+    height: 400px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+}
+.role {
+    font-family: 'Assistant';
+    font-style: normal;
+}
+.textAndAvatar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+}
+.allCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+.Title{
+    display: flex;
+    border-bottom:1px solid blue;
+}
+.CountCandidates{
+    background-color: #1155BB;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+.Name {
+    margin-right: 10px;
+}
+
+.Button{
+   margin-top: 10px;
+}

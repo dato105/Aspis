@@ -1,0 +1,133 @@
+.Wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    width: 426px;
+    height: 24px;
+    left: 277px;
+    top: 27.5px;
+
+    /* H3 */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+    margin-right: 20px;
+
+    /* black */
+
+    color: #212121;
+}
+
+.subHeader{
+
+    width: 200px;
+    height: 24px;
+    left: 553.63px;
+    top: 89.6px;
+
+    /* H2 */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 20px;
+
+    /* black */
+
+    color: #212121;
+
+}
+
+.icon{
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.textField{
+    border-radius: 50px !important;
+   flex-grow: 2;
+   gap: 50px !important;
+    border: 1px solid #F3F6FE;
+}
+
+.Card{
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    max-width: 728px;
+    max-height: 857px;
+    background: #FFFFFF;
+    /* grey-blue light */
+
+    border: 1px solid #F3F6FE;
+    /* pop up */
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+.Card > div{
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.cardTitle{
+    display:flex;
+    justify-content: space-between;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.DivButtonClose {
+    margin-top: 15px;
+
+}
+.CloseButton {
+    color: #212121 !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+.TextP{
+    margin-bottom: 5px;
+}
+.TextFieldBody{
+    width: 650px !important;
+    height: 100px !important;
+}
+.divButton{
+    margin-top: 30px;
+    direction: ltr;
+    margin-left: 15px;
+}
+.Button1{
+    width: 145px;
+    border-radius: 56px !important;
+}

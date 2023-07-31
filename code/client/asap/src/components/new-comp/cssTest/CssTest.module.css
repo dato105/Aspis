@@ -1,0 +1,106 @@
+.waitRequestCard{
+
+    /* Auto layout */
+
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr ;
+    grid-template-columns: 1fr 9.75fr;
+    grid-template-areas:
+      "header  header"
+      "sidebar content"
+      "footer  footer";
+    background-color: #eef1f8;
+}
+
+.candidateName{
+   grid-area: header;
+    width: 76px;
+    height: 27px;
+    right: 32.23px;
+    top: 27.5px;
+
+    /* H2 (21) */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: right;
+
+    /* black */
+
+    color: #212121;
+    background-color: #888888;
+
+
+
+
+
+
+}
+.candidateBagBtn{
+
+    left: 39.5px !important;
+    top: 8.5px !important;
+
+    /* P */
+
+    font-family: 'Assistant' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    /* identical to box height */
+
+    text-align: right !important;
+
+    /* black */
+
+    color: #212121 !important;
+
+
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 56px !important ;
+
+
+    grid-area: sidebar;
+
+    background-color: #212121 !important;
+
+
+}
+.candidateBagBtn2{
+
+    left: 39.5px !important;
+    top: 8.5px !important;
+
+    /* P */
+
+    font-family: 'Assistant' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    /* identical to box height */
+
+    text-align: right !important;
+
+    /* black */
+
+    color: #212121 !important;
+
+
+    width: 150px !important;
+    height: 50px !important;
+    border-radius: 56px !important ;
+
+
+    grid-area: content;
+
+
+    background-color: #1155BB !important;
+
+}

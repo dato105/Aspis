@@ -1,0 +1,26 @@
+.labelText {
+    font-family: 'Assistant' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    /* identical to box height */
+
+    text-align: right !important;
+
+    /* black */
+
+    color: #212121 !important;
+}
+
+
+.stepDetailsBox{
+
+    margin-top: 20px !important;
+
+
+}
+
+
+
+

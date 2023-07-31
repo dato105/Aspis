@@ -1,0 +1,29 @@
+.fileSelectionContainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 8fr;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+    margin-right: 20px;
+}
+
+.labelContainer .example{
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.selectedFileContainer {
+    padding-top: 15px;
+}
+
+.selectedFile {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: #9d9c9c;
+}

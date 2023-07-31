@@ -1,0 +1,137 @@
+
+.newRequestMain {
+    background: #F6F6FA;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+.InProcessCardSubCard {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.InProcessCardSubCardButton {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.waitRequestApproveBtn {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 9px 20px !important;
+    gap: 10px !important;
+
+    width: 199px !important;
+    height: 40px !important;
+
+    /* Primary */
+
+    background: #1155BB !important;
+    border-radius: 56px !important;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.approveBtnText {
+
+
+    /* Button */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none !important;
+    order: 0;
+    flex-grow: 0;
+}
+
+.snackbar {
+    color: #000 !important;
+    background-color: #FFFFFF !important;
+}
+
+.waitRequestDeniedBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 20px;
+
+
+    width: 100px;
+    height: 30px;
+
+    /* Primary */
+
+    background: #FFFFFF;
+    border-radius: 56px !important;
+    margin-top: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.deniedBtnText {
+
+
+    width: 100px;
+    height: 20px;
+
+    /* button 14 */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Primary */
+
+    color: #1155BB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+

@@ -1,0 +1,24 @@
+.wrapperFile {
+    display: flex;
+}
+
+.fileCard {
+    display: flex;
+    flex-direction: row;
+    border-width: 0px;
+    gap: 20px;
+    background-color: #FFFFFF;
+}
+
+.fileCard:hover .clickable {
+    cursor: pointer !important;
+}
+
+.InProcessCardSubCard {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}

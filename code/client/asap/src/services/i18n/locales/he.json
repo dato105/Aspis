@@ -1,0 +1,278 @@
+{
+  "Error": "שגיאה",
+  "login": {
+    "username": {
+      "placeholder": "שם משתמש"
+    },
+    "password": {
+      "placeholder": "סיסמה"
+    },
+    "submit": "התחברות"
+  },
+  "logout": {
+    "text": "יציאה"
+  },
+  "login-header": {
+    "text": "התחברות למערכת"
+  },
+  "header": {
+    "user": {
+      "message": "שלום"
+    }
+  },
+  "alert-description": {
+    "THE_CHAIRMAN_OF_APPOINTMENTS_APPROVED_THE_OPENING_OF_A_PROCESS": "יו\"ר המינויים אישר את פתיחתו של תהליך",
+    "THE_CHAIRMAN_OF_APPOINTMENTS_REJECTED_THE_OPENING_OF_A_PROCESS": "יו\"ר המינויים  דחה את פתיחתו של תהליך",
+    "ATTACHED_TEACHING_FEEDBACK": "משוב הוראה מצורף",
+    "CANDIDATE_ATTACHED_REQUIRED_MATERIAL": "המועמד צירף חומר נדרש",
+    "CANDIDATES_FOR_A_PROFESSIONAL_COMMITTEE_HAVE_BEEN ADDED": "נוספו מועמדים לוועדה מקצועית"
+  },
+  "alert-Type": {
+    "new requests": "בקשות חדשות",
+    "opening a process": "פתיחת תהליך",
+    "establishment of a professional committee": "הקמת ועדה מקצועית",
+    "professional committee": "ועדה מקצועית",
+    "final appointments committee": "ועדת מנויים סופית",
+    "requests for the CHE": "בקשות למל\"ג"
+  },
+  "appointment-steps": {
+    "NEW-REQUESTS/APPROVE-ADMIN": "אישור אדמין",
+    "NEW-REQUESTS/APPROVE-CHAIRMAN-APPOINTMENTS": "אישור יו\"ר ועדת מינויים",
+    "NEW-REQUESTS/COMBINATION-TEACHING-FEEDBACK": "צירוף משובי הוראה",
+    "OPEN-PROCESS/SETTING-DATE-APPOINTMENT-COMMITTEE": "קביעת ועדה מינויים ",
+    "OPEN-PROCESS/APPOINTMENT-COMMITTEE-WAITING": "המתנה לועדת מינויים",
+    "OPEN-PROCESS/ENTER-APPOINTMENT-COMMITTEE-DECISION": "הזנת החלטת ועדה",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/RECEIVING-MATERIAL-CANDIDATE": "קבלת חומר מהמועמד",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/LOCATING-CHAIRMAN-APPOINTMENTS-COMMITTEE": "איתור יו\"ר ועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/ADDITION-MEMBERS-PROFESSIONAL-COMMITTEE": "צירוף חברי ועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/SETTING-DATE-APPOINTMENTS-COMMITTEE": "קביעת תאריך לועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/APPOINTMENT-COMMITTEE-WAITING": "המתנה לועדת מינויים",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/ATTACHMENT-PROTOCOL-AND-LETTERS-APPOINTMENT": "צירוף פרוטוקול וכתבי מינויים",
+    "PROFESSIONAL-COMMITTEE/CONTACT-RECOMMENDERS -AND-ATTACHING-LETTERS-RECOMMENDATION": "יצירת קשר עם ממליצים וצירוף מכתבי הוראה",
+    "PROFESSIONAL-COMMITTEE/DETERMINE-PROFESSIONAL-COMMITTEE-REPORT-RECOMMENDATIONS": "קבלת דו\"ח ועדה מקצועית",
+    "FINAL-APPOINTMENTS-COMMITTEE/SETTING-DATE-FINAL-COMMITTEE": "קביעת ועדה סופית",
+    "FINAL-APPOINTMENTS-COMMITTEE/APPOINTMENT-COMMITTEE-WAITING": "המתנה לועדת מינויים",
+    "FINAL-APPOINTMENTS-COMMITTEE/ENTER-COMMITTEE-DECISION": "הזנת החלטת ועדה",
+    "REQUEST-CHE/COMPLETING-DOCUMENTS": "השלמת מסמכים",
+    "REQUEST-CHE/ENTER-GENERAL-ASSEMBLY-DECISION": "הזנת החלטת ועדה",
+    "FINISH": " הבקשה הסתיימה"
+  },
+  "familiarity": {
+    "PROFESSIONAL": "מקצועית",
+    "PERSONAL": "אישית"
+  },
+  "status-application": {
+    "NEW-REQUESTS/APPROVE-ADMIN": "בקשה חדשה",
+    "NEW-REQUESTS/APPROVE-CHAIRMAN-APPOINTMENTS": "בקשה חדשה",
+    "NEW-REQUESTS/COMBINATION-TEACHING-FEEDBACK": "בקשה חדשה",
+    "OPEN-PROCESS/SETTING-DATE-APPOINTMENT-COMMITTEE": "פתיחת תהליך",
+    "OPEN-PROCESS/APPOINTMENT-COMMITTEE-WAITING": "פתיחת תהליך",
+    "OPEN-PROCESS/ENTER-APPOINTMENT-COMMITTEE-DECISION": "פתיחת תהליך",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/RECEIVING-MATERIAL-CANDIDATE": "הקמת ועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/LOCATING-CHAIRMAN-APPOINTMENTS-COMMITTEE": "הקמת ועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/ADDITION-MEMBERS-PROFESSIONAL-COMMITTEE": "הקמת ועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/SETTING-DATE-APPOINTMENTS-COMMITTEE": "הקמת ועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/APPOINTMENT-COMMITTEE-WAITING": "הקמת ועדה מקצועית",
+    "ESTABLISHMENT-PROFESSIONAL-COMMITTEE/ATTACHMENT-PROTOCOL-AND-LETTERS-APPOINTMENT": "הקמת ועדה מקצועית",
+    "PROFESSIONAL-COMMITTEE/CONTACT-RECOMMENDERS -AND-ATTACHING-LETTERS-RECOMMENDATION": "ועדה מקצועית",
+    "PROFESSIONAL-COMMITTEE/DETERMINE-PROFESSIONAL-COMMITTEE-REPORT-RECOMMENDATIONS": "ועדה מקצועית",
+    "FINAL-APPOINTMENTS-COMMITTEE/SETTING-DATE-FINAL-COMMITTEE": "ועדת מנויים סופית",
+    "FINAL-APPOINTMENTS-COMMITTEE/APPOINTMENT-COMMITTEE-WAITING": "ועדת מנויים סופית",
+    "FINAL-APPOINTMENTS-COMMITTEE/ENTER-COMMITTEE-DECISION": "ועדת מנויים סופית",
+    "REQUEST-CHE/COMPLETING-DOCUMENTS": "בקשות מל\"ג",
+    "REQUEST-CHE/ENTER-GENERAL-ASSEMBLY-DECISION": "בקשות מל\"ג",
+    "FINISH": " הבקשה הסתיימה"
+  },
+  "applications": {
+    "title": "פניות בטיפול",
+    "responsible": "גורם פונה",
+    "dept-head": "רמ\"ח פונה",
+    "candidate": "מועמד",
+    "rank": "דרגה נדרשת",
+    "status": "סטטוס הבקשה",
+    "department": "מחלקה",
+    "cv-file-name": "קו\"ח",
+    "letter-file-name": "מכתב יזום",
+    "teaching-feedback": "העלאת משוב הוראה",
+    "another-docs": "מסמכים נוספים",
+    "click-to-add": "לחץ להעלאת מסמכים נוספים",
+    "submission-date": "תאריך הגשה",
+    "received-date": "תאריך קבלת הבקשה",
+    "done-date": "תאריך סיום השלב",
+    "stage-number": "שלב (מס')",
+    "stage-name": "שלב (שמי)",
+    "actions": "פעולות",
+    "comments": "הערות",
+    "candidate-dept": "מחלקה אליה שייך המרצה",
+    "candidate-rank": "שלב העסקה (א', ב', ג')",
+    "candidate-end-date": "תאריך סיום תקופת השלב"
+  },
+  "employment-stages": {
+    "A": "א'",
+    "B": "ב'",
+    "C": "ג'"
+  },
+  "admin": {
+    "new-applications": "  פניות חדשות לפתיחת תיק",
+    "open-applications": "  תיקים בתהליך עבודה",
+    "close-applications": "  תיקים שהסתיימו"
+  },
+  "appointment": {
+    "candidates": {
+      "label": "מועמד/ת"
+    },
+    "ranks": {
+      "label": "דרגה מבוקשת"
+    },
+    "cv": {
+      "label": "קו\"ח בפורמט מל\"ג",
+      "change": "העלאת קו\"ח"
+    },
+    "letter": {
+      "label": "מכתב יזום",
+      "change": "העלאת מכתב יזום"
+    },
+    "example": "דוגמה",
+    "file-selection": "בחירת קובץ",
+    "submit": "שליחה",
+    "rejection": "דחיית בקשה",
+    "feedback": "החזר לפידבק",
+    "applications-view": "לצפייה בבקשות",
+    "submit-success-message": "בקשתך נשלחה. מיד תועברו לדף הראשי",
+    "submit-failed-message": "קיימת בקשה עבור מועמד זה.",
+    "expired_period_time": "לא תמה תקופת צינון. אין באפשרותך לפתוח בקשה חדשה",
+    "submit-validate-fail-message": "חסר ערך באחד או יותר מהשדות",
+    "close-success-message": "הבקשה נסגרה. מיד תועברו לדף הראשי",
+    "feedback-success-message": "הבקשה נשלחה בחזרה לפידבק. מיד תועברו לדף הראשי"
+  },
+  "version": {
+    "text": "גירסה"
+  },
+  "routes": {
+    "asap-admin-home": "בית",
+    "asap-admin-new-requests": "בקשות חדשות",
+    "asap-admin-open-process": "פתיחת תהליך",
+    "asap-admin-establishment-professional-committee": "הקמת ועדה מקצועית",
+    "asap-admin-professional=committee": "ועדה מקצועית",
+    "asap-admin-final-appointments-committee": "ועדת מינויים סופית",
+    "asap-admin-request-CHE": "בקשות מל\"ג",
+    "asap-admin-all-request": "כל הבקשות",
+    "asap-admin-candidate-page": "תיק מועמד",
+    "asap-admin-landing-page": "סטטוס פניות",
+    "asap-admin-appointments": "פניות",
+    "asap-appt-chair-appointments": "פניות לאישור",
+    "asap-admin-edit-request": "עריכת פניה",
+    "asap-dept-head-appointments": "פניות",
+    "asap-dept-head-appointment": "פניה חדשה",
+    "asap-dept-head-edit-appointment": "עריכת פניה",
+    "asap-dept-head-appointment-edit": "עריכת פניה",
+    "asap-dept-member-appointment": "פניה חדשה",
+    "asap-dept-member-edit-appointment": "עריכת פניה",
+    "asap-appt-chair-edit-request": "עריכת פניה",
+    "asap-appointment-view": "צפייה",
+    "asap-quality-dept-appointments": "פניות",
+    "asap-quality-dept-edit-request": "עריכת פניה"
+  },
+  "toolbar": {
+    "filters": "סינון",
+    "columns": "עמודות",
+    "density": "צפיפות",
+    "export": {
+      "button": "יצוא",
+      "title-file": "טבלת בקשות"
+    },
+    "find-column": "מצא עמודה"
+  },
+  "actions-button": {
+    "editText": "ערוך",
+    "view": "צפייה",
+    "feedback": "העלאת משובים",
+    "validate": "מאושר",
+    "cancel": "לא מאושר"
+  },
+  "download-field-admin": {
+    "button-text": {
+      "text": "הורד קובץ"
+    },
+    "remarks": {
+      "text": "הערות"
+    }
+  },
+  "errorMessage": {
+    "message": "שם משתמש ו/או סיסמה אינם נכונים"
+  },
+  "asap-admin-edit-request": {
+    "lecturer_class": {
+      "placeholder": "מחלקה אליה שייך המרצה"
+    },
+    "transaction_phase": {
+      "placeholder": "שלב העסקה(א,ב,ג)"
+    },
+    "date": {
+      "placeholder": "תאריך סיום תקופת השלב"
+    },
+    "cv": {
+      "placeholder": "קו”ח בפורמט מל”ג"
+    },
+    "initiation_letter": {
+      "placeholder": "מכתב יזום"
+    },
+    "button": {
+      "send": "שליחה ליור ועדת המינויים"
+    },
+    "required-rank": {
+      "placeholder": "דרגה מבוקשת"
+    },
+    "request": {
+      "placeholder": "פנייה"
+    },
+    "candidate": {
+      "placeholder": "למועמד"
+    },
+    "stage": {
+      "placeholder": "שלב"
+    }
+  },
+  "approve": "אישור",
+  "stay": "ערוך פניה",
+  "appointments": {
+    "my-appointments": "הפניות שלי"
+  },
+  "note": {
+    "title": {
+      "placeholder": "דרישת תיקון של קוח או מכתב יוזם"
+    },
+    "body": {
+      "placeholder": "הוסף הערה"
+    },
+    "save": {
+      "placeholder": "שמור"
+    }
+  },
+  "alert": {
+    "title": {
+      "placeholder": "התראות חדשות"
+    }
+  },
+  "file_type": {
+    "Recommend Letter": "מכתב המלצה",
+    "CV": "קורות חיים בפורמט מל\"ג",
+    "Initiative Letter": "מכתב יוזם",
+    "Teaching Feedback": "משובי הוראה",
+    "Protocol of the Appointments Committee - opening a process": "פרוטוקול ועדת מינויים - פתיחת תהליך",
+    "Professional Committee protocol": "פרוטוקול ועדת מקצועית",
+    "Protocol of the Final Appointments Committee": "פרוטוקול ועדת מנויים סופית",
+    "file Complete to CHE": "השלמת מסמכים למל\"ג",
+    "Protocol CHE": "פרוטוקול מל\"ג"
+  },
+  "file_type_filter": {
+    "Recommend Letter": "מכתבי המלצה",
+    "CV": "קו\"ח",
+    "Initiative Letter": "מכתב יוזם",
+    "Teaching Feedback": "משובי הוראה",
+    "Protocol": "פרוטוקולי ועדה",
+    "Article": "מאמרים",
+    "Professional Committee protocol": "דו\"ח ועדה מקצועית"
+  }
+}
+

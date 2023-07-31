@@ -1,0 +1,19 @@
+.Box{
+    display: grid ;
+    grid-template-columns: 3.5fr 1fr;
+}
+
+.ImgAndName{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+}
+.Name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

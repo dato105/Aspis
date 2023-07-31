@@ -1,0 +1,105 @@
+.appointmentsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+}
+.appointmentsContainer label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.landingPageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-right: 500px;
+    padding-top: 200px;
+}
+.textArea {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    resize: none;
+    margin-top: 10px;
+}
+
+.textAreaBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    background: #d5d5d5;
+    border: 1px solid #000;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.textAreaButton {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+}
+
+.appointmentsTableContainer {
+    width: 100%;
+    height: 70vh;
+}
+
+.appointmentsDateCell {
+    direction: ltr;
+}
+
+.appointmentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.appointmentFormContainer {
+    display: grid;
+    grid-template-columns: 3fr 3fr 6fr;
+    row-gap: 15px;
+    padding: 20px;
+}
+
+.appointmentFormContainer .spanTwoColumns {
+    grid-column: 2 / span 2;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.status {
+    display: flex;
+    color: red;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: -50px;
+    font-size: 18px;
+    margin-top: -40px;
+}
+
+.statusInner {
+    margin-right: 20px;
+}
+
+.navbar_container {
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.sidebar_container {
+    position: fixed;
+    z-index: 0;
+   
+}
+
+.main_area {
+    margin-top: 4%;
+    margin-right:14%;
+}

@@ -1,0 +1,43 @@
+.loginContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #F3F6FE;
+}
+
+.loginHeader{
+    margin: 1.2rem auto 3rem auto;
+    align-items: center;
+    font-size: xx-large;
+
+}
+
+.loginFormContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.usernameTextField, .passwordTextField {
+    width: 300px;
+    background-color: #ffffff;
+}
+.loginImg{
+    text-align: left;
+}
+.loginImg img{
+    width: 100%;
+    height:100%;
+}
+.loginInput{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-left: 22.5%;
+    margin-top: 10%;
+}

@@ -1,0 +1,43 @@
+.progressBarContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    width: 67px;
+    height: 16px;
+    left: 330px;
+    top: 47px;
+    background: #FAFAFA;
+    border-radius: 21px;
+}
+
+.progressBarFilled {
+    flex: 0 0 50%;
+    background: #0FD3AD;
+    border-radius: 21px;
+}
+.subComponent{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.candidatesNum{
+    width: 25px;
+    height: 24px;
+    left: 291.5px;
+    top: 45px;
+
+    /* P */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* black */
+
+    color: #212121;
+}

@@ -1,0 +1,39 @@
+
+.cardTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    margin-top: 15px;
+}
+
+.DivButtonClose {
+    margin-top: 15px;
+}
+
+.CloseButton {
+    color: #212121 !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+
+.TextP {
+    margin-bottom: 5px;
+}
+
+.TextFieldBody {
+    width: 600px !important;
+    height: 100px !important;
+}
+
+.divButton {
+    margin-top: 30px;
+    direction: ltr;
+    margin-left: 15px;
+}
+
+.Button1 {
+    width: 145px;
+    border-radius: 56px !important;
+}

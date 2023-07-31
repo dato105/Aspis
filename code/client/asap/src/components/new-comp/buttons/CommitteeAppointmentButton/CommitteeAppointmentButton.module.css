@@ -1,0 +1,17 @@
+.approveBtn{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 9px 20px !important;
+    gap: 10px !important;
+    margin-right: 25px !important;
+    color: #FFFFFF !important;
+
+    width: 100px !important;
+    height: 40px !important;
+
+    background: #1155BB !important;
+    border-radius: 56px !important;
+
+}

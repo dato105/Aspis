@@ -1,0 +1,22 @@
+.WrapperHeader {
+    display: flex;
+}
+
+.WrapperHeader > div {
+    margin-left: 60px;
+}
+
+.Name {
+    color: #1155BB;
+    padding: 0;
+    margin: 0;
+}
+
+.AvatarAndName {
+    display: inline-flex;
+    align-items: center;
+}
+
+.RankAndName {
+    margin-right: 7px;
+}

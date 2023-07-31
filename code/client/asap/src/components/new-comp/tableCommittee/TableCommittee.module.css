@@ -1,0 +1,12 @@
+.NameHeader {
+    background: #F3F6FE;
+    padding: 4px 8px 4px 8px;
+    width: fit-content;
+    border-radius: 5px;
+    color: black;
+}
+
+.TableContainer {
+    overflow: auto;
+    max-height: 320px;
+}

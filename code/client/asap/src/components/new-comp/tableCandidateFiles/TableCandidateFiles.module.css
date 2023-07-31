@@ -1,0 +1,66 @@
+.NameHeader {
+    background: #F3F6FE;
+    padding: 4px 8px 4px 8px;
+    width: fit-content;
+    border-radius: 5px;
+    color: black;
+}
+
+.subGroupBtnTable {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.rejectTxt {
+    left: 0.81%;
+    right: 96.97%;
+    top: 31.67%;
+    bottom: 35%;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 5px;
+    color: #000000;
+
+}
+
+.txt {
+    left: 0.81%;
+    right: 96.97%;
+    top: 31.67%;
+    bottom: 35%;
+
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: right;
+    margin-top: 5px;
+
+    color: #000000;
+
+
+}
+
+.letterIcon {
+    margin-top: 5px;
+}
+
+.icon1 {
+    width: 25px;
+    height: 23px;
+    margin-top: 15px;
+
+}
+
+.downloadIcon {
+    margin-top: 15px;
+}

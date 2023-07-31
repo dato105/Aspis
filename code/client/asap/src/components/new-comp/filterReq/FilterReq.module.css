@@ -1,0 +1,85 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+
+}
+.Stage{
+    margin-right: 20px;
+    margin-top: 10px;
+
+    color: #9d9c9c;
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+
+}
+.ButtonAction{
+    display: flex;
+    justify-content: center;
+
+
+}
+.All{
+  margin-left: 20px;
+}
+.checkBoxOption{
+    width: 83px;
+    height: 24px;
+
+
+    /* P */
+
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* black */
+
+    color: #212121;
+}
+.checkBoxHeader{
+    font-family: 'Assistant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+     margin-bottom: 10px;
+    text-align: right;
+
+
+    /* black */
+
+    color: #212121;
+}
+.checkBoxList {
+
+    /* identical to box height */
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+
+.popperBox{
+    border-radius: 10px !important;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-bottom: 20px;
+
+
+}
+.checkBox{
+    margin-right: -10px;
+}

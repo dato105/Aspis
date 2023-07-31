@@ -1,0 +1,28 @@
+.LogoutIcon{
+    margin-right: 50px !important;
+    color: black !important;
+}
+
+.Box{
+    flex: 0.3;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.LogoutIcon{
+    transform: rotate(180deg);
+}
+.ImgDiv{
+    display: grid ;
+    grid-template-columns: 0.5fr 1fr;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+.Name{
+    margin-bottom: 5px !important;
+}
+.Role{
+    color:#9d9c9c;
+}

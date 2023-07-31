@@ -1,0 +1,22 @@
+.titleColor {
+    color: #1155BB !important;
+    font-size: small;
+
+}
+
+.requestTypeText {
+    font-size: x-large;
+}
+
+.taskBarBox {
+    display: flex;
+    margin: 0 -5px;
+
+}
+
+.taskBarCard {
+    margin: 10px 9.5px;
+    border-radius: 20px !important;
+}
+
+

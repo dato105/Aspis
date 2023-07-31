@@ -1,0 +1,909 @@
+[
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "asap-admin",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "asap-dept-head",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+      "name": "asap-appt-chair",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 4,
+    "fields": {
+      "name": "asap-dept-member",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 5,
+    "fields": {
+      "name": "asap-quality-dept",
+      "permissions": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        45,
+        46,
+        47,
+        48,
+        29,
+        30,
+        31,
+        32,
+        41,
+        42,
+        43,
+        44,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$phjTEeXAQwIb9sDQYKEw0N$VY0PmTndrdn/oWEimRI/7NeNo+tMWVRl3GO62oj5klA=",
+      "last_login": "2023-05-24T08:49:33.097Z",
+      "is_superuser": true,
+      "username": "asapadmin",
+      "first_name": "",
+      "last_name": "",
+      "email": "asapadmin@asap.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-01-23T19:58:05Z",
+      "groups": [],
+      "user_permissions": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        45,
+        46,
+        47,
+        48,
+        29,
+        30,
+        31,
+        32,
+        41,
+        42,
+        43,
+        44,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$P43YkLPgFiTvo4aAKqkwUT$7dKAy/1R7imyK03tclweEMG5t2kgrih8SXJZ+45d+dU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "rani_blair",
+      "first_name": "רני",
+      "last_name": "בלייר",
+      "email": "dayana@sapir.ac.il",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:08:58Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 12,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$cOgZOBiqHfKLI9FZ6TWjph$Oohun2IzadkCZ9HhVYw/dq2RjyTZTz3ZdCymNO9URBQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "yael_shenkar",
+      "first_name": "יעל",
+      "last_name": "שנקר",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:10:49Z",
+      "groups": [
+        4
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 13,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$AHMrfxShvlsU5P7iLAgIWI$PchteOXJHlVS5W01HQF8cNq2I+1dYEC84bU1YSeeOvo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "shemuel_elbaz",
+      "first_name": "שמואל",
+      "last_name": "אלבז",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:11:59Z",
+      "groups": [
+        4
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 14,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$wlJeLt7ATgCHJVHdTBdpci$1JODvMR9YOveDBSPQswNMlGkBHxWdC15eud9Gc2YIG8=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sharon_hadad",
+      "first_name": "שרון",
+      "last_name": "חדד",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:13:46Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 15,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$nTetKDitHTIi5FkXxFDbSm$/EV3owM+quumTHc68e7OwoQ9EfyHEWwZI+XfRiYrQKc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "gila_benisti",
+      "first_name": "גילה",
+      "last_name": "בניסטי",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:16:09Z",
+      "groups": [
+        4
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 16,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$T6KYGO47F9f8rcDqCf17Kz$hKOtr6sUrYeNkJ69j3DNSruR/fcDAc7/6J8DISqFnYQ=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "reut_magidish",
+      "first_name": "רעות",
+      "last_name": "מגידיש",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:17:16Z",
+      "groups": [
+        4
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 17,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$3qomr97UYZCSdMy8SgR0pE$snWK5MpgDBlaNlkdO1y8vop9L2YQk8XHmkAkQcQoA20=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nitzan_eilon",
+      "first_name": "ניצן",
+      "last_name": "אילון",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:19:00Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": [
+        28,
+        47,
+        43,
+        40
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 18,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$b7Lo0BxG3HFjkWbpX7tLTk$3qb3mB8b/xuseROVtrZwzfEU/h+h8kqbcENz/tbRP60=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "aviram26@gmail.com",
+      "first_name": "אבירם",
+      "last_name": "דיין",
+      "email": "dayana@sapir.ac.il",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-02-07T09:20:37Z",
+      "groups": [
+        1,
+        2,
+        3
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$NCDtVs9guH2UEjO1EAdRkh$5NkAaBD7Uw9xtPND1H0b/XRye4NW00S7iniCy4wmug0=",
+      "last_login": "2022-04-25T16:21:52Z",
+      "is_superuser": false,
+      "username": "nir_keidar",
+      "first_name": "ניר",
+      "last_name": "קידר",
+      "email": "nir_keidar@mail.sapir.ac.il",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-04-25T16:21:24Z",
+      "groups": [
+        3
+      ],
+      "user_permissions": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        45,
+        46,
+        47,
+        48,
+        29,
+        30,
+        31,
+        32,
+        41,
+        42,
+        43,
+        44,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 21,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$Jp7tI0TfW7078yOPIDinHE$uyjqj6gZRjAVu6/PXIGTFOZve40IwJ6KHNXpWojFX4c=",
+      "last_login": "2022-05-18T07:38:52Z",
+      "is_superuser": false,
+      "username": "almoni_palmoni",
+      "first_name": "אלמוני",
+      "last_name": "פלמוני",
+      "email": "almoni@mail.sapir.ac.il",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-05-18T07:38:21Z",
+      "groups": [
+        5
+      ],
+      "user_permissions": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        25,
+        26,
+        27,
+        28,
+        45,
+        46,
+        47,
+        48,
+        29,
+        30,
+        31,
+        32,
+        41,
+        42,
+        43,
+        44,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 1,
+    "fields": {
+      "name": "רב תחומי",
+      "department_head": null
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 2,
+    "fields": {
+      "name": "כלכלה יישומית",
+      "department_head": 14
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 3,
+    "fields": {
+      "name": "אומנויות הקול והמסך",
+      "department_head": 11
+    }
+  },
+  {
+    "model": "core.department",
+    "pk": 4,
+    "fields": {
+      "name": "מזכירות",
+      "department_head": null
+    }
+  },
+  {
+    "model": "core.rank",
+    "pk": 1,
+    "fields": {
+      "name": "פרופסור חבר"
+    }
+  },
+  {
+    "model": "core.rank",
+    "pk": 2,
+    "fields": {
+      "name": "מרצה בכיר"
+    }
+  },
+  {
+    "model": "core.rank",
+    "pk": 3,
+    "fields": {
+      "name": "מרצה"
+    }
+  },
+  {
+    "model": "core.rank",
+    "pk": 4,
+    "fields": {
+      "name": "פרופ' מן המניין"
+    }
+  },
+  {
+    "model": "core.rank",
+    "pk": 5,
+    "fields": {
+      "name": "מנהל"
+    }
+  },
+  {
+    "model": "core.committee",
+    "pk": 5,
+    "fields": {
+      "date_establish": "2023-06-20",
+      "committee_date": "2023-06-28T19:17:00Z",
+      "type": "APPOINTMENTS_COMMITTEE"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 5,
+    "fields": {
+      "user": 11,
+      "rank": 2,
+      "department": 3,
+      "joined_date": "2022-05-09",
+      "degree": "ד\"ר",
+      "picture": "images/men_0WQ1EQ1.jpg",
+      "stage_due_date": "2023-12-07T08:48:13Z",
+      "employment_stage": "C"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 6,
+    "fields": {
+      "user": 12,
+      "rank": 2,
+      "department": 3,
+      "joined_date": "2022-05-09",
+      "degree": "גב'",
+      "picture": "images/Yeal.jpg",
+      "stage_due_date": "2023-10-27T08:48:13Z",
+      "employment_stage": "C"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 7,
+    "fields": {
+      "user": 13,
+      "rank": 3,
+      "department": 3,
+      "joined_date": "2022-05-09",
+      "degree": "מר.",
+      "picture": "images/men1.jpg",
+      "stage_due_date": "2023-07-13T08:48:13Z",
+      "employment_stage": "A"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 8,
+    "fields": {
+      "user": 14,
+      "rank": 2,
+      "department": 2,
+      "joined_date": "2022-05-09",
+      "degree": "פרופ'",
+      "picture": "images/gilt1.jpg",
+      "stage_due_date": "2024-03-08T08:48:13Z",
+      "employment_stage": "C"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 9,
+    "fields": {
+      "user": 15,
+      "rank": 1,
+      "department": 2,
+      "joined_date": "2022-05-09",
+      "degree": "פרופ'",
+      "picture": "images/gilt.jpg",
+      "stage_due_date": "2023-08-15T08:48:13Z",
+      "employment_stage": "C"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 10,
+    "fields": {
+      "user": 16,
+      "rank": 2,
+      "department": 2,
+      "joined_date": "2022-05-09",
+      "degree": "גב'",
+      "picture": "images/ruat.jpg",
+      "stage_due_date": "2023-08-15T08:48:13Z",
+      "employment_stage": "A"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 11,
+    "fields": {
+      "user": 17,
+      "rank": 5,
+      "department": 4,
+      "joined_date": "2023-03-22",
+      "degree": "גב'",
+      "picture": "images/women.jpg",
+      "stage_due_date": "2024-03-08T08:48:13Z",
+      "employment_stage": "C"
+    }
+  },
+  {
+    "model": "core.profile",
+    "pk": 12,
+    "fields": {
+      "user": 18,
+      "rank": 5,
+      "department": 4,
+      "joined_date": "2023-03-27",
+      "degree": "מר.",
+      "picture": "images/men.jpg",
+      "stage_due_date": "2023-12-07T08:48:13Z",
+      "employment_stage": "A"
+    }
+  },
+  {
+    "model": "core.application",
+    "pk": 1,
+    "fields": {
+      "creator": 10,
+      "applicant": 10,
+      "desired_rank": 2,
+      "application_state": [
+        {
+          "CV&Initiative Letter": {
+            "CV": {
+              "url": "Files/reut_magidish-LetterRecommendation.docx",
+              "date": "2023-05-29T11:44:23.769309",
+              "uploadWith": "ניצן אילון"
+            },
+            "Initiative Letter": {
+              "url": "Files/reut_magidishCV.docx",
+              "date": "2023-05-29T11:44:15.171223",
+              "uploadWith": "ניצן אילון"
+            }
+          }
+        }
+      ],
+      "is_done": false,
+      "created_at": "2023-03-26T06:56:51.046Z",
+      "updated_at": "2023-05-29T08:45:46.721Z",
+      "state_Application": "ACTIVE",
+      "committee_ID": null
+    }
+  },
+  {
+    "model": "core.application",
+    "pk": 2,
+    "fields": {
+      "creator": 9,
+      "applicant": 9,
+      "desired_rank": 4,
+      "application_state": [
+        {
+          "CV&Initiative Letter": {
+            "CV": {
+              "url": "Files/gila_benisti-LetterRecommendation.docx",
+              "date": "2023-05-29T11:46:56.892874",
+              "uploadWith": "ניצן אילון"
+            },
+            "Initiative Letter": {
+              "url": "Files/gila_benistiCV.docx",
+              "date": "2023-05-29T11:46:49.924528",
+              "uploadWith": "ניצן אילון"
+            }
+          }
+        }
+      ],
+      "is_done": false,
+      "created_at": "2023-03-30T08:56:33.233Z",
+      "updated_at": "2023-05-29T08:48:18.390Z",
+      "state_Application": "ACTIVE",
+      "committee_ID": null
+    }
+  },
+  {
+    "model": "core.application",
+    "pk": 3,
+    "fields": {
+      "creator": 7,
+      "applicant": 7,
+      "desired_rank": 2,
+      "application_state": [
+        {
+          "CV&Initiative Letter": {
+            "CV": {
+              "url": "Files/shemuel_elbaz-LetterRecommendation.docx",
+              "date": "2023-05-29T11:49:47.947881",
+              "uploadWith": "ניצן אילון"
+            },
+            "Initiative Letter": {
+              "url": "Files/shemuel_elbazCV.docx",
+              "date": "2023-05-29T11:49:40.947805",
+              "uploadWith": "ניצן אילון"
+            }
+          }
+        }
+      ],
+      "is_done": false,
+      "created_at": "2023-04-28T07:11:06.199Z",
+      "updated_at": "2023-05-29T09:38:20.838Z",
+      "state_Application": "ACTIVE",
+      "committee_ID": null
+    }
+  },
+  {
+    "model": "core.application",
+    "pk": 4,
+    "fields": {
+      "creator": 6,
+      "applicant": 6,
+      "desired_rank": 1,
+      "application_state": [
+        {
+          "CV&Initiative Letter": {
+            "CV": {
+              "url": "Files/yael_shenkarCV.docx",
+              "date": "2023-05-29T11:09:57.504513",
+              "uploadWith": "ניצן אילון"
+            },
+            "Initiative Letter": {
+              "url": "Files/yael_shenkar-LetterRecommendation.docx",
+              "date": "2023-05-29T11:10:07.870882",
+              "uploadWith": "ניצן אילון"
+            }
+          }
+        }
+      ],
+      "is_done": false,
+      "created_at": "2023-05-10T14:23:23.859Z",
+      "updated_at": "2023-05-29T08:16:33.334Z",
+      "state_Application": "ACTIVE",
+      "committee_ID": null
+    }
+  },
+  {
+    "model": "core.applicationstep",
+    "pk": 67,
+    "fields": {
+      "application": 1,
+      "step_name": "NEW-REQUESTS/APPROVE-ADMIN",
+      "currentStep": true,
+      "can_update": false,
+      "can_cancel": false,
+      "created_at": "2023-05-28T18:41:28.745Z",
+      "updated_at": "2023-05-29T08:44:45.749Z"
+    }
+  },
+  {
+    "model": "core.applicationstep",
+    "pk": 68,
+    "fields": {
+      "application": 2,
+      "step_name": "NEW-REQUESTS/APPROVE-ADMIN",
+      "currentStep": true,
+      "can_update": false,
+      "can_cancel": false,
+      "created_at": "2023-05-28T18:41:35.746Z",
+      "updated_at": "2023-05-29T08:47:11.182Z"
+    }
+  },
+  {
+    "model": "core.applicationstep",
+    "pk": 69,
+    "fields": {
+      "application": 3,
+      "step_name": "NEW-REQUESTS/APPROVE-ADMIN",
+      "currentStep": true,
+      "can_update": false,
+      "can_cancel": false,
+      "created_at": "2023-05-28T18:41:41.703Z",
+      "updated_at": "2023-05-29T09:38:44.153Z"
+    }
+  },
+  {
+    "model": "core.applicationstep",
+    "pk": 79,
+    "fields": {
+      "application": 4,
+      "step_name": "NEW-REQUESTS/APPROVE-ADMIN",
+      "currentStep": true,
+      "can_update": true,
+      "can_cancel": true,
+      "created_at": "2023-05-29T08:10:07.789Z",
+      "updated_at": "2023-05-29T08:10:30.528Z"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 67,
+    "fields": {
+      "user_id": 6,
+      "file": "Files/yael_shenkarCV.docx"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 68,
+    "fields": {
+      "user_id": 6,
+      "file": "Files/yael_shenkar-LetterRecommendation.docx"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 69,
+    "fields": {
+      "user_id": 10,
+      "file": "Files/reut_magidishCV.docx"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 70,
+    "fields": {
+      "user_id": 10,
+      "file": "Files/reut_magidish-LetterRecommendation.docx"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 71,
+    "fields": {
+      "user_id": 9,
+      "file": "Files/gila_benistiCV.docx"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 72,
+    "fields": {
+      "user_id": 9,
+      "file": "Files/gila_benisti-LetterRecommendation.docx"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 73,
+    "fields": {
+      "user_id": 7,
+      "file": "Files/shemuel_elbazCV.docx"
+    }
+  },
+  {
+    "model": "core.document",
+    "pk": 74,
+    "fields": {
+      "user_id": 7,
+      "file": "Files/shemuel_elbaz-LetterRecommendation.docx"
+    }
+  },
+  {
+    "model": "core.alert",
+    "pk": 2,
+    "fields": {
+      "user_id": 15,
+      "alert_type_id": "THE_CHAIRMAN_OF_APPOINTMENTS_REJECTED_THE_OPENING_OF_A_PROCESS",
+      "insert_time": "2023-03-24T08:10:37.395Z",
+      "is_read": true,
+      "statusAlert": "opening a process"
+    }
+  },
+  {
+    "model": "core.alert",
+    "pk": 3,
+    "fields": {
+      "user_id": 15,
+      "alert_type_id": "THE_CHAIRMAN_OF_APPOINTMENTS_APPROVED_THE_OPENING_OF_A_PROCESS",
+      "insert_time": "2023-03-29T19:13:18.554Z",
+      "is_read": false,
+      "statusAlert": "establishment of a professional committee"
+    }
+  }
+]
